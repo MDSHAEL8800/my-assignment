@@ -20,11 +20,10 @@ body {
     color: #0a0a0a;
   }
   .sign-in-btn {
-    background-color:white;
     font-family: "Fira Sans", serif;
     font-weight: bold;
-    color:#07806b;
-    border: 2px solid #07806b;
+    color:#006A50;
+    border: 2px solid #006A50;
     padding: 12px 25px;
     border-radius: 6px;
     cursor:default;
@@ -158,11 +157,11 @@ select {
   padding: 20px;
 }
 
-/* Pillars Section */
 .pillars {
   text-align: center;
   margin-bottom: 40px;
   margin-left: 7px;
+margin-right: 35px;
   
 }
 
@@ -176,13 +175,14 @@ select {
 .pillars-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+  gap: 60px;
 }
 
 .pillar-card {
   background: white;
-  border-radius: 8px;
+  border-radius: 15px;
   padding: 20px;
+  width: 100%;
   text-align: center;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -324,10 +324,9 @@ select {
    width: 70%; 
    margin: 0 auto; 
 
-
-  
 }
-    .news-section h1 { font-size: 2em; 
+    .news-section h1 { 
+      font-size: 2em; 
       margin-bottom: 10px;
       text-align: left; 
       margin-left: -120px;
@@ -337,12 +336,8 @@ select {
     margin-bottom: 20px;
     text-align: left;
     margin-left: -120px;
-    
-
      } 
    
-
-     
      .news-article {
        display: flex; 
        margin-bottom: 20px;
@@ -353,13 +348,15 @@ select {
         border: 1px solid #ddd;
          border-radius: 10px; 
         } 
+
         .news-article img {
            width: 300px; 
            height: 220px;
            margin-right: 20px; 
            border-radius: 12px;
            margin-bottom: -20px;
-           margin-top: 20px;
+           margin-top: 40px;
+           align-items: center;
 
         } 
         
@@ -371,14 +368,14 @@ select {
             .news-content h2 { 
               font-size: 1.5em; 
               margin-bottom: 10px; 
-              margin-top: 40px;
+              margin-top: 58px;
             } 
           
-            .news-meta 
-            { 
+            .news-meta { 
               display: flex; 
               align-items: center; 
               margin-bottom: 10px; 
+              margin-top: -50px;
             } 
             .news-meta img {
               width: 120px; 
@@ -394,6 +391,7 @@ select {
                 font-size: 0.9em;
                  color: #777;
                  margin-left: -127px;
+                 margin-top: 20px;
                  } 
 
                  .news-content p {
@@ -401,8 +399,8 @@ select {
                     color: #333; 
                     margin-bottom: 10px;
                   margin-left: 3px;
-                  margin-top: -45px;
-                  margin-bottom: 10px;
+                  margin-top: -55px;
+                  margin-bottom: 30px;
                  }
                     .news-content button {
                       padding: 10px 20px;
@@ -410,9 +408,9 @@ select {
                       color: #fff;
                       border: none;
                       border-radius: 5px;
-                      cursor:default;
-                      margin-bottom: -40px;
+                      cursor:pointer;
                       margin-bottom: -50px;
+                      margin-top: -20px;
                     }
 
                     .news-content button:hover {
